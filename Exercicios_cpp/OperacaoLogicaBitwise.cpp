@@ -1,3 +1,5 @@
+//Este código em C realiza operações de bitwise (bit a bit) em duas variáveis i e j, e depois imprime o resultado.
+
 #include <stdio.h>
 #include <locale.h>
 
