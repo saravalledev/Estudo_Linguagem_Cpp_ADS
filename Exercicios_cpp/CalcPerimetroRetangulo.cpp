@@ -1,9 +1,12 @@
+//Este c√≥digo em linguagem C++ √© um programa simples que calcula o per√≠metro de um ret√¢ngulo com base nos valores dos dois lados 
+//fornecidos pelo usu√°rio e exibe o resultado na sa√≠da console. 
+
 #include <stdio.h>
-#include <locale.h> //bibliotÈca que resolve a acentuaÁ„o da String
+#include <locale.h> 
 
 int main(){
 	
-	setlocale(LC_ALL, "Portuguese"); //Chama a biblioteca de acentuaÁ„o
+	setlocale(LC_ALL, "Portuguese"); 
 	
 	int lado1,lado2,perimetro;
 	
@@ -16,7 +19,7 @@ int main(){
 	
 	perimetro = (lado1 * 2) + (lado2 * 2);
 	
-	printf("\nO perÌmetro È: %d",perimetro);
+	printf("\nO per√≠metro √©: %d",perimetro);
 	
 	return 0;
 }
