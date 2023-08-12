@@ -1,3 +1,6 @@
+//Esse código é um programa simples em C++ para teste das funções "printf" e "scanf". Ele recebe um numero N digitado
+//pelo usuário e o imprime na saída do console.
+
 #include <stdio.h>
 
 int main(){
